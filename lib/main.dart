@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   DocumentScannerOptions documentOptions = DocumentScannerOptions(
     documentFormat: DocumentFormat.jpeg, // set output document format
     mode: ScannerMode.filter, // to control what features are enabled
-    pageLimit: 2, // setting a limit to the number of pages scanned
+    pageLimit: 3, // setting a limit to the number of pages scanned
     isGalleryImport: true, // importing from the photo gallery
   );
 
