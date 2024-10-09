@@ -30,7 +30,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
 
 
-  int documentNumber = 0;
+  int documentNumber = 1;
   DocumentScanningResult? result; 
 
   DocumentScannerOptions documentOptions = DocumentScannerOptions(
